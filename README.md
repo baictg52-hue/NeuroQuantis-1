@@ -64,3 +64,13 @@ Through the development of NeuroQuantis, we aim to create a smarter, more effici
 
 Shared Directory Link:
 Access project files and technical details: <a href="https://drive.google.com/drive/folders/18Ui_xAWhDi8qwQ1prE7Bfr6ZhrNLrFrA?usp=drive_link" >NeuroQuantis Project Files</a>
+
+In order to verify and evolve the high-dimensional topological interference flow required by `NeuroQuantis 3.0/4.0` in advance on classic silicon-based hardware (CUDA/GPU), this project officially opens ** non-regressive words under the `/PhaseCoherence` directory. Resonance three-piece set**:
+
+1. **`omega_quantum_phase.py`**: Use the learnable complex phase angle matrix to simulate the physical activation layer of native quantum bit phase length interference (Constructive Interference), aiming to eliminate traditional autoregressive ( Token-by-Token)'s decoding bandwidth overhead.
+
+2. **`train_resonance_symbiosis_fixed.py`**: Built-in Guard/Balanced/Attack three-speed risk control state machine, support the introduction of decentralised decentralised network (BTC main network time and space extension Late characteristic) is used as a real physical entropy source for in-orbit fine-tuning.
+
+3. **`ablation_test.py`**: Strictly decide the capture and colour of the real blockchain topological geometry by the model through the equivariance disordered Gaussian pseudo-entropy confrontation.
+
+* "Transform the decentralised consensus of the digital world into a continuous physical spectrum of the evolution of quantum neurons." *
