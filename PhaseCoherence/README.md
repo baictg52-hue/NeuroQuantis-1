@@ -88,8 +88,7 @@ Now all the tinds have been loaded, and the code is completely locked locally.
 
 Please tell me what you need to add (code examples, installation instructions, training script call methods, etc.), and I can continue to help you improve it.
 🛠️ Quick Start (Quick Start) 1. Model Parasitic Fine-Tuning and Training (Symbiosis Training) You can directly use the closed-loop fine-tuning script we have written train_resonance_symbiosis_fixed.py, which can keep Gemma native Under the premise of language ability, the last layer of hidden states is forcibly mounted through Hook and injected into the phase resonance layer for synchronous evolution: bashpython train_resonance_symbiosis_fix Ed.py
-
-Please use this kind of code carefully. 2. Single module integration example (Independent Layer Integration) As a pure nn.Module, you can seamlessly insert it into any mainstream Transformer architecture as a nonlinear topology enhancement activation layer: Pythonimport torch
+ 2. Single module integration example (Independent Layer Integration) As a pure nn.Module, you can seamlessly insert it into any mainstream Transformer architecture as a nonlinear topology enhancement activation layer: Pythonimport torch
 
 Import numpy as np
 
@@ -113,4 +112,4 @@ Print(f"✅ Instantaneous semantic collapse completed! Confidence Score: {resona
 
 Print(f"📊 Enhance feature length Shape: {enhanced_embedding.shape}")
 
-Please use this kind of code carefully. 🔮 PhaseCoherence, a bridge to neural quantum networks (NQN), although it is currently running on the classic CUDA computing power, its operator design realises 1:1 native physical mapping with quantum computers (QPU): phase_angl in the matrix Es is completely equivalent to the rotation arc of the programmable quantum phase shift gates in quantum computers. The torch.sum() thread synchronisation overhead on the classic GPU is expressed as spontaneous physical interference behaviour between photons or superconducting quantum bits in real quantum computers, and its physical calculation time is absolute 0. This project aims to provide global AI developers with a complete engineering transition scheme for training and fine-tuning future quantum neural networks on classic hardware when the NISQ (noisy medium-sized quantum) era comes.
+🔮 PhaseCoherence, a bridge to neural quantum networks (NQN), although it is currently running on the classic CUDA computing power, its operator design realises 1:1 native physical mapping with quantum computers (QPU): phase_angl in the matrix Es is completely equivalent to the rotation arc of the programmable quantum phase shift gates in quantum computers. The torch.sum() thread synchronisation overhead on the classic GPU is expressed as spontaneous physical interference behaviour between photons or superconducting quantum bits in real quantum computers, and its physical calculation time is absolute 0. This project aims to provide global AI developers with a complete engineering transition scheme for training and fine-tuning future quantum neural networks on classic hardware when the NISQ (noisy medium-sized quantum) era comes.
