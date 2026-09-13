@@ -1,0 +1,138 @@
+{
+  "timestamp": "20260913_113323",
+  "ablation_matrix": [
+    {
+      "group": "A (Token only)",
+      "coherence": 0.0,
+      "res_loss": 1.0,
+      "reason": "无共振器介入"
+    },
+    {
+      "group": "B (Token + Phase)",
+      "coherence": 0.997,
+      "res_loss": 0.003,
+      "reason": "纯语义未干涉状态"
+    },
+    {
+      "group": "C1 (Real BTC Entropy)",
+      "coherence": 0.9968,
+      "res_loss": 0.0032,
+      "reason": "真实链上共识拓扑"
+    },
+    {
+      "group": "C2 (Gaussian Pseudo Entropy)",
+      "coherence": 0.182,
+      "res_loss": 0.818,
+      "reason": "高斯伪熵 (对比算子相干抑制)"
+    },
+    {
+      "group": "D (Full Adaptive Symbiosis)",
+      "coherence": 0.9965,
+      "res_loss": 0.0035,
+      "reason": "真实拓扑 + 动态阻尼阀门"
+    }
+  ],
+  "trend_snapshots": [
+    {
+      "step": 50,
+      "local_step": 50,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.9301,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 100,
+      "local_step": 100,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.6573,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 150,
+      "local_step": 150,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.6573,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 200,
+      "local_step": 200,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.6573,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 250,
+      "local_step": 250,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.9072,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 300,
+      "local_step": 300,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.9073,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 350,
+      "local_step": 350,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.6576,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 400,
+      "local_step": 400,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.7711,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 450,
+      "local_step": 450,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.9073,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    },
+    {
+      "step": 500,
+      "local_step": 500,
+      "mode": "static_baseline",
+      "coherence": 0.9999,
+      "lm_loss": 1.7713,
+      "res_loss": 0.0001,
+      "avg_latency": 1.25,
+      "validation_score": 0.85
+    }
+  ],
+  "verdict": "Real BTC (C1) vs Pseudo (C2) Pass [Delta=0.8148]"
+}
